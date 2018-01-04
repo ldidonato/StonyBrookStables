@@ -19,11 +19,21 @@ body {
 .business-header {
   height: 50vh;
   min-height: 300px;
-  background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+  background: url('../img/home.jpg') center center no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+#headertitle{
+    background-color: black;
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .card {
@@ -36,7 +46,7 @@ nav, footer{
 .sr-only{
     color:#53844f !important;
 }
-#email{
+.link{
     color:darkslategray;
 }
 .contentfarm{
@@ -231,4 +241,33 @@ nav, footer{
       background-position: center center;  
       background-size: cover; /* Cover all available space. */ 
       /* If you want the whole image visible try 'contain'*/
+}
+#footersale{ 
+    position: fixed; 
+    bottom: 0;
+    width:100%;
+}
+#contact{
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+}
+#contact img{
+   height:15px;
+}
+.contactbar{
+    color: green;
+    font-size:20px;
+    font-weight: bold;
+}
+#nav li a:link, #logo, #contact a:link{
+    text-decoration: none;
+    color: white;
+}
+#nav li a:visited, #logo, #contact a:visited{
+    text-decoration: none;
+    color: white;
+}
+.navbar-brand{
+    font-family: "Times New Roman", Times, serif;
 }
