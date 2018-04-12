@@ -247,6 +247,11 @@ nav, footer{
     bottom: 0;
     width:100%;
 }
+@media only screen and (max-width: 768px) {
+    #footersale{
+        position: static;
+    }
+}
 #contact{
     color:white;
     text-align: center;
@@ -273,4 +278,7 @@ nav, footer{
 }
 .copyright{
     color: grey;
+}
+a:link, a:hover, a:visited{
+    color:black;
 }
